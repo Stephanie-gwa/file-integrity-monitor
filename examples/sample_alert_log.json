@@ -1,0 +1,58 @@
+[
+  {
+    "kind": "created",
+    "path": "new_file.txt",
+    "timestamp": "2026-10-02T22:25:31.454151",
+    "message": "New file detected: new_file.txt",
+    "old_record": null,
+    "new_record": {
+      "path": "new_file.txt",
+      "size": 41,
+      "mtime": 1790997931.4532506,
+      "sha256": "461e4e384d7d12f070243adae980a9ec8ddd0e948c6a0a774bc38967ed9ab554"
+    },
+    "detail": {}
+  },
+  {
+    "kind": "deleted",
+    "path": "config.ini",
+    "timestamp": "2026-10-02T22:25:31.454151",
+    "message": "File deleted: config.ini",
+    "old_record": {
+      "path": "config.ini",
+      "size": 33,
+      "mtime": 1790997931.4499474,
+      "sha256": "dbd094b6e72d25f377beba8b974d7d381bd2a6d09632c46e980165e0776094bd"
+    },
+    "new_record": null,
+    "detail": {}
+  },
+  {
+    "kind": "modified",
+    "path": "notes.md",
+    "timestamp": "2026-10-02T22:25:31.454151",
+    "message": "File modified: notes.md",
+    "old_record": {
+      "path": "notes.md",
+      "size": 55,
+      "mtime": 1790997931.44998,
+      "sha256": "00e68f3d20ad65f6e63720d3407be5af16538d094c72999b540ee0a32efccc3a"
+    },
+    "new_record": {
+      "path": "notes.md",
+      "size": 97,
+      "mtime": 1790997931.4533179,
+      "sha256": "28e72463fb46a8a8f12d89473f741d959dfff182e9ce35c5144f464d9c941439"
+    },
+    "detail": {}
+  },
+  {
+    "kind": "inaccessible",
+    "path": "broken_link.txt",
+    "timestamp": "2026-10-02T22:25:31.454174",
+    "message": "Could not read broken_link.txt",
+    "old_record": null,
+    "new_record": null,
+    "detail": {}
+  }
+]

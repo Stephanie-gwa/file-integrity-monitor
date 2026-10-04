@@ -1,0 +1,12 @@
+Setting up sample folder at '/tmp/fim_examples/watched_demo' ...
+Baseline established: 4 file(s).
+Noted 1 inaccessible path(s) at baseline time (e.g. the demo's intentionally-broken symlink): ['broken_link.txt']
+
+Applying a scripted set of changes (create, modify, delete) ...
+
+[2026-10-02T22:25:31] CREATED       new_file.txt — New file detected: new_file.txt
+[2026-10-02T22:25:31] DELETED       config.ini — File deleted: config.ini
+[2026-10-02T22:25:31] MODIFIED      notes.md — File modified: notes.md
+[2026-10-02T22:25:31] INACCESSIBLE  broken_link.txt — Could not read broken_link.txt
+
+Demo complete. Alert log: /tmp/fim_examples/watched_demo/.fim/alerts.log.jsonl
